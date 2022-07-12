@@ -1,4 +1,4 @@
-import { Slider, Switch, Typography, Divider } from 'antd';
+import { Slider, Typography, Divider } from 'antd';
 import React from 'react';
 
 const { Title } = Typography;
@@ -22,6 +22,7 @@ const App = () => {
       <div style={style}>
         <Slider vertical defaultValue={30} />
       </div>
+      <Divider />
     </div>
   );
 };

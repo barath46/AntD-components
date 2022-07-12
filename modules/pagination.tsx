@@ -1,7 +1,7 @@
 import { Pagination, Typography, Divider } from 'antd';
 import React from 'react';
 
-const { Title, Paragraph } = Typography;
+const { Title } = Typography;
 
 const App = () => (
   <div id="pagination-component">
