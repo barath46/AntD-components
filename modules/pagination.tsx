@@ -1,4 +1,4 @@
-import { Pagination } from 'antd';
+import { Pagination, Typography } from 'antd';
 import React from 'react';
 
 const App = () => <Pagination defaultCurrent={1} total={50} />;
