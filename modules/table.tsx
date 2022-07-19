@@ -1,4 +1,5 @@
 import { Space, Table, Tag, Typography, Divider } from 'antd';
+import TableWithCheckbox from '../components/tableWithCheckbox.tsx';
 import React from 'react';
 
 const { Title } = Typography;
@@ -83,6 +84,11 @@ const App = () => (
     <Title level={2}>Table component:</Title>
     <Title level={5}>Basic:</Title>
     <Table columns={columns} dataSource={data} />
+    <br />
+    <br />
+    <Title level={5}>Selection Table:</Title>
+    <TableWithCheckbox />
+    <Divider />
   </div>
 );
 
