@@ -4,7 +4,7 @@ import React from 'react';
 const { Title, Paragraph } = Typography;
 
 const App: React.FC = () => (
-  <div className="alert-component">
+  <div id="alert-component">
     <Title level={2}>Alert component:</Title>
     <Paragraph>When you need to show alert messages to users.</Paragraph>
     <Space direction="vertical">

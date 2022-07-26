@@ -5,7 +5,7 @@ import React from 'react';
 const { Title, Paragraph } = Typography;
 
 const App = () => (
-  <div className="avatar-component">
+  <div id="avatar-component">
     <Title level={2}>Avatar component:</Title>
     <Title level={5}>Basic Avatar:</Title>
     <Paragraph>Three sizes and two shapes are available.</Paragraph>
