@@ -107,7 +107,7 @@ const menuTwo = (
 );
 
 const App = () => (
-  <div className="dropdown-component">
+  <div id="dropdown-component">
     <Title level={2}>Dropdown component:</Title>
     <Title level={5}>Basic Dropdown:</Title>
     <Dropdown overlay={menuOne}>
@@ -118,11 +118,12 @@ const App = () => (
         </Space>
       </a>
     </Dropdown>
-    <br /><br />
+    <br />
+    <br />
 
     <Title level={5}>Cascading dropdown:</Title>
     <Dropdown overlay={menuTwo}>
-      <a onClick={e => e.preventDefault()}>
+      <a onClick={(e) => e.preventDefault()}>
         <Space>
           Cascading menu
           <DownOutlined />

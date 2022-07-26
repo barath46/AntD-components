@@ -75,7 +75,7 @@ const App: React.FC = () => {
   );
 
   return (
-    <div className="upload-component">
+    <div id="upload-component">
       <Title level={2}>Upload component:</Title>
       <Paragraph>Upload file by selecting or dragging.</Paragraph>
       <br />

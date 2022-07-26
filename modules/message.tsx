@@ -28,7 +28,7 @@ const successOne = () => {
 
 const App: React.FC = () => {
   return (
-    <div className="messaage-component">
+    <div id="messaage-component">
       <Title level={2}>Message component:</Title>
       <Button type="primary" onClick={info}>
         Display normal message

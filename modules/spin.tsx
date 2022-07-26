@@ -8,7 +8,7 @@ const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
 
 const App: React.FC = () => {
   return (
-    <div className="spin-component">
+    <div id="spin-component">
       <Title level={2}>Spin component:</Title>
       <Title level={5}>Basic Spin</Title>
       <br />

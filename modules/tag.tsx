@@ -13,7 +13,7 @@ const preventDefault = (e: any) => {
 };
 
 const App = () => (
-  <div className="tag-component">
+  <div id="tag-component">
     <Title level={2}>Tag component:</Title>
     <Title level={5}>Basic tag:</Title>
     <Tag>Tag 1</Tag>

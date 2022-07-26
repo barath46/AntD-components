@@ -13,7 +13,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="radio-component">
+    <div id="radio-component">
       <Title level={2}>Radio component:</Title>
       <Paragraph>
         Enter a number within certain range with the mouse or keyboard.

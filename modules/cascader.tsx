@@ -52,7 +52,7 @@ const App: React.FC = () => {
     setText(selectedOptions.map((o) => o.label).join(', '));
   };
   return (
-    <div className="cascader-component">
+    <div id="cascader-component">
       <Title level={2}>Cascader component:</Title>
       <Paragraph>
         Cascader is used when you need to select from a set of associated data

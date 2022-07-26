@@ -4,7 +4,7 @@ import React from 'react';
 const { Title, Paragraph } = Typography;
 
 const App = () => (
-  <div className="tooltip-component">
+  <div id="tooltip-component">
     <Title level={2}>Tooltip component:</Title>
     <Title level={5}>Basic Tooltip:</Title>
     <Tooltip title="prompt text">

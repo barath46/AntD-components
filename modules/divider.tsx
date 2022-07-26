@@ -4,7 +4,7 @@ import React from 'react';
 const { Title, Paragraph } = Typography;
 
 const App: React.FC = () => (
-  <div className="divider-component">
+  <div id="divider-component">
     <Title level={2}>Divider component:</Title>
     <Paragraph>Divide sections of article.</Paragraph>
     <Divider />

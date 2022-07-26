@@ -11,7 +11,7 @@ const onChange = (value: number) => {
 const App: React.FC = () => {
   const [value, setValue] = useState<string | number>('99');
   return (
-    <div className="input-number-component">
+    <div id="input-number-component">
       <Title level={2}>InputNumber component:</Title>
       <Paragraph>
         Enter a number within certain range with the mouse or keyboard.

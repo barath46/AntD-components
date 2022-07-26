@@ -9,7 +9,7 @@ const App: React.FC = () => {
   const [value, setValue] = useState(3);
 
   return (
-    <div className="rate-component">
+    <div id="rate-component">
       <Title level={2}>Rate component:</Title>
       <Paragraph>Rate component</Paragraph>
       <br />

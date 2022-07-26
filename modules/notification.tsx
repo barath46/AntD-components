@@ -34,7 +34,7 @@ const openIconNotification = () => {
 
 const App: React.FC = () => {
   return (
-    <div className="notification-component">
+    <div id="notification-component">
       <Title level={2}>Notification component:</Title>
       <Button type="primary" onClick={openNotification}>
         Open the notification box

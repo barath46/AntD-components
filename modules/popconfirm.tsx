@@ -16,7 +16,7 @@ const cancel = (e: React.MouseEvent<HTMLElement>) => {
 
 const App: React.FC = () => {
   return (
-    <div className="popconfirm-component">
+    <div id="popconfirm-component">
       <Title level={2}>Popconfirm component:</Title>
       <Paragraph>
         A simple and compact confirmation dialog of an action.

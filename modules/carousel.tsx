@@ -17,7 +17,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="carousel-component">
+    <div id="carousel-component">
       <Title level={2}>Carousel component:</Title>
       <Paragraph>
         Carousel is used when there is a group of content on the same level or

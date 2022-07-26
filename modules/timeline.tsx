@@ -12,7 +12,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="timeline-component">
+    <div id="timeline-component">
       <Title level={2}>Timeline component:</Title>
       <Paragraph>
         When a series of information needs to be ordered by time (ascending or

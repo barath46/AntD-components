@@ -5,7 +5,7 @@ const { Title, Paragraph } = Typography;
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div id="image-component">
       <Title level={2}>Image component:</Title>
       <Paragraph>Previewable image</Paragraph>
       <br />

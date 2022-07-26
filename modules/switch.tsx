@@ -5,7 +5,7 @@ import React from 'react';
 const { Title, Paragraph } = Typography;
 
 const App: React.FC = () => (
-  <div className="switch-component">
+  <div id="switch-component">
     <Title level={2}>Switch component:</Title>
     <Paragraph>
       Switch is used if you need to represent the switching between two states

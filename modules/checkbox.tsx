@@ -29,7 +29,7 @@ const App: React.FC = () => {
     disabled ? 'Disabled' : 'Enabled'
   }`;
   return (
-    <div className="checkbox-component">
+    <div id="checkbox-component">
       <Title level={2}>Checkbox component:</Title>
       <Paragraph>
         Checkbox is used for selecting multiple values from several options.

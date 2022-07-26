@@ -15,7 +15,7 @@ const onSearch = (value: string) => console.log(value);
 
 const App: React.FC = () => {
   return (
-    <div className="input-component">
+    <div id="input-component">
       <Title level={2}>Input component:</Title>
       <Paragraph>
         A basic widget for getting the user input is a text field. Keyboard and
@@ -64,7 +64,12 @@ const App: React.FC = () => {
       <br />
       <br />
       <Link href="/input-main">
-      <a><span><AlertOutlined /> </span> Click here to see input main page</a>
+        <a>
+          <span>
+            <AlertOutlined />{' '}
+          </span>{' '}
+          Click here to see input main page
+        </a>
       </Link>
       <Divider />
     </div>

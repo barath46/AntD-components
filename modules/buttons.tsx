@@ -24,7 +24,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="button-component">
+    <div id="button-component">
       <Title level={2}>Buttons component:</Title>
       <Paragraph>
         Button types: <code>primary</code> <code>default</code>{' '}

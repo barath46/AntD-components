@@ -18,3 +18,11 @@
   padding: 16px;
   background: rgb(190, 200, 200);
 }
+
+.ant-back-top {
+  right: 120px !important;
+}
+
+.anchor-list {
+  margin-bottom: 56px;
+}
