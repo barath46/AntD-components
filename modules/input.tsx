@@ -1,6 +1,7 @@
 import { Input, Typography, Divider, Tooltip } from 'antd';
 import { InfoCircleOutlined, UserOutlined } from '@ant-design/icons';
 import React from 'react';
+import Link from 'next/link';
 
 const { Title, Paragraph } = Typography;
 
@@ -56,6 +57,11 @@ const App: React.FC = () => {
       <br />
       <Title level={5}>Input with status</Title>
       <Input status="error" placeholder="Error" />
+      <br />
+      <br />
+      <Link href="/input-main">
+        <a>Click here to see input main page</a>
+      </Link>
       <Divider />
     </div>
   );
