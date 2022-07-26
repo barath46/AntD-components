@@ -1,5 +1,9 @@
 import { Input, Typography, Divider, Tooltip } from 'antd';
-import { InfoCircleOutlined, UserOutlined } from '@ant-design/icons';
+import {
+  InfoCircleOutlined,
+  UserOutlined,
+  AlertOutlined,
+} from '@ant-design/icons';
 import React from 'react';
 import Link from 'next/link';
 
@@ -60,7 +64,7 @@ const App: React.FC = () => {
       <br />
       <br />
       <Link href="/input-main">
-        <a>Click here to see input main page</a>
+      <a><span><AlertOutlined /> </span> Click here to see input main page</a>
       </Link>
       <Divider />
     </div>
