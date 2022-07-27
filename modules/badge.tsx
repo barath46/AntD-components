@@ -5,7 +5,7 @@ import React from 'react';
 const { Title, Paragraph } = Typography;
 
 const App = () => (
-  <div className="badge-component">
+  <div id="badge-component">
     <Title level={2}>Badge component:</Title>
     <Title level={5}>Basic Badge:</Title>
     <br />

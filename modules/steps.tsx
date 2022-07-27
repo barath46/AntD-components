@@ -11,7 +11,7 @@ const { Step } = Steps;
 const { Title, Paragraph } = Typography;
 
 const App: React.FC = () => (
-  <div className="step-component">
+  <div id="step-component">
     <Title level={2}>Step component:</Title>
     <Paragraph>
       Steps is a navigation bar that guides users through the steps of a task.

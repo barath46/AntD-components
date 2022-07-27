@@ -6,7 +6,7 @@ const { Title, Paragraph } = Typography;
 const { Meta } = Card;
 
 const App = () => (
-  <div className="card-component">
+  <div id="card-component">
     <Title level={2}>Card component:</Title>
     <Title level={5}>Basic Card:</Title>
     <Card

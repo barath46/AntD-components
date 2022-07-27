@@ -47,7 +47,7 @@ const menu = (
 );
 
 const App = () => (
-  <div className="breadcrumb-component">
+  <div id="breadcrumb-component">
     <Title level={2}>Breadcrumb component:</Title>
     <Paragraph>
       A breadcrumb displays the current location within a hierarchy. It allows

@@ -9,7 +9,7 @@ const onChange = (key: any) => {
 };
 
 const App = () => (
-  <div className="tabs-component">
+  <div id="tabs-component">
     <Title level={2}>Tabs component:</Title>
     <Title level={5}>Basic tab:</Title>
     <Tabs defaultActiveKey="1" onChange={onChange}>

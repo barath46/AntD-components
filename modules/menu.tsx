@@ -75,7 +75,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="menu-component">
+    <div id="menu-component">
       <Title level={2}>Menu component:</Title>
       <Paragraph>
         Ant Design offers two navigation options: top and side.

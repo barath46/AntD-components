@@ -4,7 +4,7 @@ import React from 'react';
 const { Title, Paragraph, Text, Link } = Typography;
 
 const App = () => (
-  <div className="typography-component">
+  <div id="typography-component">
     <Title level={2}>Typography components:</Title>
     <Divider orientation="left">Title component:</Divider>
     <Paragraph className="m0">Display title in different level.</Paragraph>
